@@ -1,4 +1,3 @@
-/*fut[10], vol[10], bas[10], han[10] , nat[10], cic[10], atl[10], mus[10]*/
 
 #include <iostream>
 using namespace std;
@@ -110,6 +109,19 @@ int main()
 			}
 			if (!achei)
 				cout<<"Não Existe Produto Com Esse Preço\n\n";
+			
+		case 6:
+			
+ 	  		
+			cout << "\nAs Ultimas 10 Vendas Sao: " << list << ":\n";
+ 	  		for(int i=0;i<10;i++) 
+			{
+ 	  			if (preco[10]==list)
+			   {
+			   	cout << ": " << pro[i] << endl;
+                cout << endl;
+			   }	   		
+			}							
         break;
         default:
         	cout<<"Opção invalida\n\n";
