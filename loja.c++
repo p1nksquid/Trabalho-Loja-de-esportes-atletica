@@ -8,7 +8,7 @@ int main()
     string nome[10], cpf[10], sexo[10], nasc[10], end[10], timefav[10], selecaofav[10];
     string des[10], mod[10], mar[10], tama[10], cor[10], preco[10];
     string pro[10], dataCompra[10], valorCompra[10], sit[10];
-    string cli[10], valorVenda[10], dataVenda[10], dataRecebimento[10];
+    string cli[10], valorVenda[10], dataVenda[10], dataRecebimento[10], item[10];
     string list;
     bool achei=false;
 
@@ -65,7 +65,7 @@ int main()
 		case 3: 
 		
 			cout<<"\n\nCadastrar Os Itens De Produtos\n";
-            cout<<"Produto: ";cin>>pro[indice];
+            cout<<"Produto: ";cin>>item[indice];
             cout<<"Data De Compra: ";cin>>dataCompra[indice];
             cout<<"Valor Da Compra: ";cin>>valorCompra[indice];
             cout<<"Situação: ";cin>>sit[indice];
