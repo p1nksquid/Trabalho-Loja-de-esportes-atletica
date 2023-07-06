@@ -1,5 +1,7 @@
 
 #include <iostream>
+#include <locale>
+
 using namespace std;
 
 int main()
@@ -113,10 +115,10 @@ int main()
 		case 6:
 			
  	  		
-			cout << "\nAs Ultimas 10 Vendas Sao: " << list << ":\n";
+			cout << "\nAs Ultimas 10 Vendas Sao: \n";
  	  		for(int i=0;i<10;i++) 
 			{
- 	  			if (preco[10]==list)
+ 	  			if (pro!=0)
 			   {
 			   	cout << ": " << pro[i] << endl;
                 cout << endl;
