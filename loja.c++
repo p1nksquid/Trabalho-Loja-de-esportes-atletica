@@ -20,18 +20,17 @@ int main()
     string nome[10],sexo[10], nasc[10], end[10], timefav[10], selecaofav[10];
     string des[10], mod[10], mar[10], cor[10];
     string dataCompra[10], sit[10];
-    string cli[10], dataVenda[10], dataRecebimento[10], item[10];
+    string cpf[10], preco[10], tama[10], valorCompra[10];
+    string item[10];
     string list;
     string pro;
 
-    string cpf[10], preco[10], tama[10], valorVenda[10], valorCompra[10];
-    /*float cpf[10], preco[10], tama[10], valorVenda[10], valorCompra[10];*/
-
-
-    bool achei=false;
 
     int op = -1;
     int indice = 0;
+    
+    bool achei=false;
+    bool achei1=false;
 
     Venda vendas[10]; 
     int numVendas = 0; 
@@ -159,11 +158,13 @@ int main()
 				cout << "Cor: " << cor[i] << endl;
                 cout << "Preço: " << preco[i] << endl;
                 cout << endl;
+                indice++;
+                achei1=true;
+                cout << "Esses são os produtos.\n\n";
+                
 			   }
-
-	   		
 			}
-			if (!achei)
+			if (!achei1)
 				cout<<"Não Existe Produto Com Esse Preço\n\n";
                 break;
 			
